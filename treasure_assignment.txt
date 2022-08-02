@@ -1,0 +1,461 @@
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects
+$ cd exercises
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises (main)
+$ ls
+dummy_file  week1/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises (main)
+$ cd week1
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1 (main)
+$ cd unix_exercise
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise (main)
+$ cd house
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/basement (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ lss
+bash: lss: command not found
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../../../
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt  trasure4
+
+LovingRahman@DESKTOP-856U4DP MINGW64 ~/OneDrive/Desktop/Projects/exercises/week1/unix_exercise (main)
+$ mv trasure4 /chest
+mv: cannot move 'trasure4' to '/chest': Permission denied
