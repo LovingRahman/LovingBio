@@ -19,11 +19,11 @@ public class AsynchronousCodingChallenge {
         System.out.println(Arrays.toString(a));
 
         // this loop reverses letters of the names and the postion of the names
-        String[] names = {"Luke", "Han", "Leia", "Chewie","Vader","Tarkin", "Lando"};
+        String[] names = {"Luke", "Han", "Leia", "Chewie","Vader","Tarkin", "Lando","Anikin"};
         int n = names.length;
 
         // reverses the positions of words
-        for(int i = 0; i < n-2; i++){
+        for(int i = 0; i < n-4; i++){
 
             String temp2 = names[n-1-i];
             names[n-1-i] = names[i];
