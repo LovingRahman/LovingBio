@@ -75,7 +75,7 @@ insert into table6 values(5, 'Sally');
 insert into table6 values(6, 'Jess');
 insert into table6 values(7, 'Will');
 
-select concat('Hi ', name, '! How are you today?') from table6;
+select concat('Hi ', name, '! How are you today?') as Greeting from table6;
 
 --question 7
 create table table7(id integer, name varchar(50), sold integer);
